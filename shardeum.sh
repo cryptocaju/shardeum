@@ -10,17 +10,6 @@ echo -e '     |  $$$$$$/| $$  | $$|  $$$$$$/|  $$$$$$/      |  $$$$$$/| $$  | $$
 echo -e '      \______/ |__/  |__/ \______/  \______/        \______/ |__/  |__/    |__/    |__/         |__/    \______/   '
 echo -e '                                                                                                                   '
 
-
-
-function verificar_comando {
-    if [ $? -eq 0 ]; then
-        echo "======= OK Verificado ========"
-    else
-        echo "=========== FALHA ========"
-    fi
-    sleep 4
-}
-
 sudo apt-get install curl
 verificar_comando
 
