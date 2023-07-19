@@ -24,5 +24,7 @@ docker --version
 sudo apt-get install curl -y
 echo  -e  "\e[1;34m================================INSTALACAO DOCKER COMPOSE=======================================================\e[0m"
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-
+echo  -e  "\e[1;34m================================ADICIONANDO PERMISSAO NO DOCKER COMPOSE=========================================\e[0m"
+sudo chmod +x /usr/local/bin/docker-compose
+sleep 5s
 echo  -e  "\e[1;33m============================INSTALACAO COMPLETA, VAMOS AO PROXIMO PASSO :)=======================================\e[0m"
