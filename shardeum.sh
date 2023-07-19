@@ -11,8 +11,6 @@ echo -e '      \______/ |__/  |__/ \______/  \______/        \______/ |__/  |__/
 echo -e '                                                                                                                   '
 echo -e '\e[0m'     
 
-#!/bin/bash
-
 function verificar_comando {
     if [ $? -eq 0 ]; then
         echo "======= OK Verificado ========"
