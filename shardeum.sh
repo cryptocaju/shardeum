@@ -12,5 +12,5 @@ echo -e '                                                                       
 
 sudo apt-get install curl
 sudo apt update
-sudo apt install -y docker.io
+apt-get install -y docker.io
 docker --version
